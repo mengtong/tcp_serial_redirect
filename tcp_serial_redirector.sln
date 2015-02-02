@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcp_serial_redirector", "tcp_serial_redirector\tcp_serial_redirector.vcxproj", "{AFDFF777-A508-4E41-BBAC-EA5FD81A04FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinSerial", "WinSerial\WinSerial.vcxproj", "{6AE33F5C-38C2-40B0-9467-D41E15D77859}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml", "tinyxml\tinyxml.vcxproj", "{E28ABB4C-4AE6-4DEE-90FF-F80F3676DDEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFDFF777-A508-4E41-BBAC-EA5FD81A04FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFDFF777-A508-4E41-BBAC-EA5FD81A04FC}.Debug|Win32.Build.0 = Debug|Win32
+		{AFDFF777-A508-4E41-BBAC-EA5FD81A04FC}.Release|Win32.ActiveCfg = Release|Win32
+		{AFDFF777-A508-4E41-BBAC-EA5FD81A04FC}.Release|Win32.Build.0 = Release|Win32
+		{6AE33F5C-38C2-40B0-9467-D41E15D77859}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AE33F5C-38C2-40B0-9467-D41E15D77859}.Debug|Win32.Build.0 = Debug|Win32
+		{6AE33F5C-38C2-40B0-9467-D41E15D77859}.Release|Win32.ActiveCfg = Release|Win32
+		{6AE33F5C-38C2-40B0-9467-D41E15D77859}.Release|Win32.Build.0 = Release|Win32
+		{E28ABB4C-4AE6-4DEE-90FF-F80F3676DDEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E28ABB4C-4AE6-4DEE-90FF-F80F3676DDEB}.Debug|Win32.Build.0 = Debug|Win32
+		{E28ABB4C-4AE6-4DEE-90FF-F80F3676DDEB}.Release|Win32.ActiveCfg = Release|Win32
+		{E28ABB4C-4AE6-4DEE-90FF-F80F3676DDEB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

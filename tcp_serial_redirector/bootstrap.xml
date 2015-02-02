@@ -1,0 +1,29 @@
+<?xml version = "1.0" ?>
+<bootstrap>
+  <serialpool>
+    <serial>
+      <port>COM4</port>
+      <baud>9600</baud>
+      <stopbits>ONESTOPBIT</stopbits>
+      <parity>NOPARITY</parity>
+      <bytesize>8</bytesize>
+    </serial>
+    <serial>
+      <port>COM5</port>
+      <baud>9600</baud>
+      <stopbits>ONESTOPBIT</stopbits>
+      <parity>NOPARITY</parity>
+      <bytesize>8</bytesize>
+    </serial>
+  </serialpool>
+  <servers>
+    <redirector>
+      <port>COM4</port>
+      <tcp>6000</tcp>
+    </redirector>
+    <redirector>
+      <port>COM5</port>
+      <tcp>6001</tcp>
+    </redirector>
+  </servers>
+</bootstrap>
