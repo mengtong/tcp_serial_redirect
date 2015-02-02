@@ -1,7 +1,6 @@
 #pragma once
 
-#include <exception>
-#include <string>
+#include <stdexcept>
 #include <Windows.h>
 
 class WinSerial
@@ -36,11 +35,5 @@ class WinSerialException : public std::runtime_error
 public:
     WinSerialException(const std::string & reason);
     ~WinSerialException();
-
-    virtual const char * what() const;
-
     static void Throw(const std::string & reason);
-
-private:
-    std::string errstr;
 };

@@ -1,7 +1,6 @@
 #pragma once
 
-#include <string>
-#include <exception>
+#include <stdexcept>
 
 #include <WinSock2.h>
 #include <Windows.h>
@@ -29,7 +28,4 @@ public:
     WinSocketException(const std::string & reason);
 
     static void Throw(const std::string & reason);
-
-private:
-    std::string errStr_;
 };

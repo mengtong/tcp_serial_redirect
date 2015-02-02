@@ -104,11 +104,6 @@ WinSerialException::~WinSerialException()
 {
 }
 
-const char * WinSerialException::what() const
-{
-    return errstr.c_str();
-}
-
 void WinSerialException::Throw(const std::string & reason)
 {
     std::stringstream ss;
